@@ -61,6 +61,5 @@ def generate_words_dfa(dfa, length):
 
 if __name__ == "__main__":
     dfa = citire_fisier('Test2.txt')
-    print(dfa)
     generate_words_dfa(dfa, 3)
-    print(x)
+  
